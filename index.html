@@ -2,27 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alexis R. Gonzalez</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <script defer src="javascript.js"></script>
+    <title>Personal Website</title>
   </head>
   <body>
-    <nav class="nav">
-      <p id="header_name">Alexis R. Gonzalez</p>
-      <ul class="nav_list">
-        <li class="nav_item">
-          <a style="text-decoration: none" href="index.html">Home</a>
-        </li>
-        <li class="nav_item">
-          <a style="text-decoration: none" href="about.html">About</a>
-        </li>
-        <li class="nav_item">
-          <a style="text-decoration: none" href="portfolio.html">Portfolio</a>
-        </li>
-      </ul>
+    <nav>
+      <div id="logo">
+        <h1>Alexis Gonzalez</h1>
+      </div>
+      <div id="links">
+        <a class="active" href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+      </div>
     </nav>
-    <h1>Attention To-Detail, Team Oriented, Engineer</h1>
-    <nav class="text_body">
+    <main>
+      <img src="images/me.jpg" />
+      <h2>Attention To-Detail, Team Oriented, Engineer</h2>
       <p>
         I am a passionate web developer hailing from the picturesque state of
         California. With a keen eye for design and a knack for code, I thrive on
@@ -34,11 +33,20 @@
         visually captivating, user-friendly websites that ensure a smooth and
         enjoyable browsing experience for visitors.
       </p>
-      <img src="images/me.jpg" alt="Picture of Me" />
-    </nav>
-    <p id="quote">
-      Two roads diverged in a wood and I - I took the one less traveled by, and
-      that has made all the difference. -Robert Frost
-    </p>
+      <h3 class="quote">
+        "Two roads diverged in a wood and I - I took the one less traveled by,
+        and that has made all the difference."
+        <br />
+        - Robert Frost
+      </h3>
+    </main>
+    <footer>
+      <a href="resume.txt" target="_blank">Resume</a>
+      <a
+        href="https://www.linkedin.com/in/alexis-gonzalez-b35693223/"
+        target="_blank"
+        >LinkedIn</a
+      >
+    </footer>
   </body>
 </html>

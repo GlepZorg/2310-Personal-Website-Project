@@ -1,0 +1,42 @@
+Joe Doe
+###-###-####
+jacksonmalmstrom@gmail.com
+github.com/jacksonmalms
+linkedin.com/in/jackson-malmstrom-a38080233/
+
+EDUCATION - CLOUD STUDENT
+B.S. Cloud Computing – AWS track (enrolled, first year, GPA 3.0) Western Governors University
+Information Technology Course CourseCareers
+
+CERTIFICATIONS
+CompTIA A+ (achieved Jan. 2023)
+ITIL v4 Foundations (achieved Sep. 2022)
+CompTIA Network+ (in progress, expected by May)
+CompTIA Security+ (in progress, expected by Jun)
+PHDP - CourseCareers Practical Help Desk Professional (in progress, nearly finished)
+
+IT PROJECTS
+Project: Implementing a Help Desk Ticketing System (osTicket) using Azure Virtual Machines 
+Source: github.com/jacksonmalms/osticket-prereqs
+Platforms and Technology Used: Azure Virtual Machines, osTicket, IIS, HeidiSQL
+
+Project: Implementing Active Directory (On-Premises) in Azure
+Source: github.com/jacksonmalms/configure-ad
+Platforms and Technology Used: Azure Virtual Machines, Active Directory, PowerShell
+
+Project: Exploring Azure and Networking Concepts
+Source: github.com/jacksonmalms/azure-network-protocols
+Platforms and Technology Used: Azure Virtual Machines, Network Security Groups, WireShark
+
+JOB EXPERIENCE
+Company: The Home Depot June 2021 - July 2022
+Title: Merchandising Execution Team Associate
+    • Seasonal change projects
+    • Aisle and bay maintenance
+    • Customer assistance
+
+SKILLS AND TECHNOLOGIES
+Help Desk, Ticketing System, Azure, Network Security Groups, Firewalls, ACLs (Access Control Lists), Virtual Machines, Virtual Networks, Cloud Computing, Active Directory, File Permissions, Windows 10, PC Building
+
+DESIRING TO LEARN
+Python, Powershell, Bash, Linux CLI, Terraform, AWS Services, Docker 
