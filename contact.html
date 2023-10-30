@@ -3,26 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Me</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="javascript.js"></script>
+    <title>Personal Website</title>
   </head>
   <body>
-    <nav class="nav">
-      <p id="header_name">Alexis R. Gonzalez</p>
-      <ul class="nav_list">
-        <li class="nav_item">
-          <a style="text-decoration: none" href="index.html">Home</a>
-        </li>
-        <li class="nav_item">
-          <a style="text-decoration: none" href="about.html">About</a>
-        </li>
-        <li class="nav_item">
-          <a style="text-decoration: none" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav_item">
-          <a style="text-decoration: none" href="contact.html">Contact Me</a>
-        </li>
-      </ul>
+    <nav>
+      <div id="logo">
+        <h1>Alexis Gonzalez</h1>
+      </div>
+      <div id="links">
+        <a class="active" href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </nav>
+    <main>
+      <div class="flex-container">
+        <section class="flex-item">
+          <img class="flex-img" src="images/me.jpg" alt="" />
+        </section>
+        <section class="flex-item">
+          <p class="flex-p">Let's Talk!</p>
+        </section>
+      </div>
+
+      <div class="contact-form">
+        <h2 class="contact-h2">Contact Me</h2>
+        <form id="contact-form" action="">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+        <div id="success-message" style="display: none">
+          <p>Thank you for your message! We'll get back to you shortly.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <a href="resume.txt" target="_blank">Resume</a>
+      <a
+        href="https://www.linkedin.com/in/alexis-gonzalez-b35693223/"
+        target="_blank"
+        >LinkedIn</a
+      >
+      <button onclick="hello_world()">Click Me!</button>
+      <script src="javascript.js"></script>
+    </footer>
   </body>
 </html>

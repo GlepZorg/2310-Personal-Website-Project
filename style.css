@@ -149,3 +149,57 @@ section {
   font-size: 2rem;
   border-bottom: 1px solid #ccc;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: wrap;
+}
+
+.flex-item {
+  flex: 1;
+  padding: 20px;
+}
+.flex-img{
+  width: 20em;
+}
+.flex-p{
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 5em;
+}
+
+button:hover {
+  background-color: rgba(2, 245, 54, 0.973);
+  color: #fff;
+}
+.contact-h2{
+  text-align: left;
+}
+.contact-form {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact-form input[type="submit"] {
+  background-color: rgba(2, 245, 54, 0.973);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
